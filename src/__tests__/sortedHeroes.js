@@ -1,4 +1,4 @@
-import sortedHeroes from '../sortedHeroes.js';
+import sortedHeroes from '../sortedHeroes';
 
 const heroes = [
     {name: 'мечник', health: 10},
