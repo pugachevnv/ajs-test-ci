@@ -8,5 +8,5 @@ export default function indicateHealth(data) {
   if (data.health < 15 && data.health !== 0) {
     return 'critical';
   }
- return;
+  return 'dead';
 }

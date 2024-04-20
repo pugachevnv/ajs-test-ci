@@ -14,3 +14,8 @@ test('health less than 15 and not 0', () => {
   const result = indicateHealth({ name: 'мечник', health: 10 });
   expect(result).toBe('critical');
 });
+
+test('health 0', () => {
+  const result = indicateHealth({ name: 'мечник', health: 0 });
+  expect(result).toBe('dead');
+});
